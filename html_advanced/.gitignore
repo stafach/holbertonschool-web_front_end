@@ -1,1 +1,6 @@
 html
+*.png
+*.jpg
+*.ico
+*/W3C-Validator/
+*/.DS_Store
