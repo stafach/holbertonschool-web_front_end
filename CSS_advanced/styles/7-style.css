@@ -32,8 +32,8 @@ a {
 }
 
 :root {
-    --font-family-base: Helvetica Neue, Helvetica, Arial, sans-serif;
-    --font-family-title: Helvetica Neue, Helvetica, Arial, sans-serif;
+    --font-family-base: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    --font-family-title: Raleway, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -71,9 +71,4 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
-}
-
-:root {
-    --font-family-base: Open Sans;
-    --font-family-title: Raleway;
 }
