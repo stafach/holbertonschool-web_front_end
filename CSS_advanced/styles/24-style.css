@@ -219,17 +219,17 @@ h1, h2, h3, h4, h5, h6 {
     fill: var(--text-color);
 }
 
-card-services card-title {
+.card-services .card-title {
     margin: 0;
 }
 
-card-services a {
+.card-services a {
     padding: 2rem;
     background-color: var(--color-light-grey);
     display: block;
 }
 
-card-services a:hover {
+.card-services a:hover {
     color: var(--color-white);
     background-color: var(--color-primary);
     text-decoration: none;
