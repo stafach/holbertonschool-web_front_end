@@ -48,20 +48,20 @@ body {
     line-height: var(--line-height-base);
 }
 
-a[href] {
+a {
     color: #161616;
     text-decoration: none;
 }
 
-a[href]:visited {
+a:visited {
     font-style: italic;
 }
 
-a[href]:hover {
+a:hover {
     text-decoration: underline;
 }
 
-a[href]:active {
+a:active {
     background-color: var(--color-light-grey);
 }
 
@@ -116,6 +116,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
 }
 
-footer {
+.footer {
     padding: var(--footer-padding);
 }
