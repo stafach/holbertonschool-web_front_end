@@ -44,7 +44,7 @@ html {
     --nav-item-letter-spacing: 4%;
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem 0;
-    --nav-item-link-hover: var(--color-primary)
+    --nav-item-link-hover: var(--color-primary);
 }
 
 body {
@@ -55,20 +55,20 @@ body {
     line-height: var(--line-height-base);
 }
 
-a[href] {
+a {
     color: #161616;
     text-decoration: none;
 }
 
-a[href]:visited {
+a:visited {
     font-style: italic;
 }
 
-a[href]:hover {
+a:hover {
     text-decoration: underline;
 }
 
-a[href]:active {
+a:active {
     background-color: var(--color-light-grey);
 }
 
